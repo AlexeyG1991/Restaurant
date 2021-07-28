@@ -453,8 +453,12 @@ $sm: 550px;
         margin-bottom: 20px;
         display: flex;
         align-items: center;
+        transition: all 0.3s ease 0s;
         &:last-child {
             margin-bottom: 0;
+        }
+        &:hover {
+            color: #c8235d;
         }
         img {
             margin-right: 15px;
